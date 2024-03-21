@@ -36,7 +36,6 @@ if($action == 'list_vehicles') {
     $makes = list_makes();
     $types = list_types();
     $vehicles = list_vehicles($make_id, $type_id, $class_id, $sort_order);
-
     include('view/public_vehicle_list.php');
 }
 
